@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title><h1>Mi Biografia</h1></title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="latabla.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+
+    Sans+Condensed:wght@300&display=swap"rel="stylesheet">
+    <script type="text/javascript">
+    
+        function cambiaFondo (x) {
+            console.log(x.value);
+
+            var body = document.getElementById("body");
+            body.style.backgroundColor = x.value;
+        }
+    </script>
+    </head>
+    <body id="body">
+    <body>
+        <ul class="menu">
+            <li><a href="INDEX.html">Mi Biografia</a></li>
+            <li><a href="Experiencia Laboral.html">Experiencia Laboral</a></li>
+            <li><a href="Linea de Tiempo.html">Linea de Tiempo</a></li>
+            <li><a href="Material de Interes.html">Material de Interes</a></li>
+            <li><a href="Foro de Mensajes.html">Foro de Mensajes</a></li>
+        </ul>
+
+        <select name=" fondo" id="fondo" onchange="cambiaFondo(this)">
+            <option value="blue">Noche</option>
+            <option value="white">Dia</option>
+        
+        </select>
+
+        <h1>Sobre mi.</h1>
+        <style type="text/css">
+        
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+      
+      <div class="contenedor">
+          <header>
+              <main>
+                  <div class="perfil">
+                      <img src="imagenes/5.jpg"alt="">
+                  </div>
+                  <div class="texto">
+                      <h2>Julián Andrés Hernández Aranguren</h2>
+
+                      
+                        
+                      <p>Nací el 21 de julio de 2004 en Sogamoso boyacá
+                           mis videos favoritos 
+                          son los de Pepe el mago, enchufe tv y
+                          los de e-mastersensei mi música favorita es en inglés.</p>
+
+                          <h2>Mis primeros años.</h2>
+
+                          <p>En mis primeros años estuve acompañado por sus padres y por sus abuelos
+                            Alonso Aranguren y Aura Escobar, paso tiempo con ellos y con mis
+                             dos perros Jacki y jack.</p>
+
+                  </div>
+
+              </main>
+          </header>
+
+          <div id="main-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th><th>Apellido</th><th>Edad</th><th>Pais</th><th>Ciudad</th><th>Telefono</th>
+                    </tr>
+                </thead>
+    
+                <tr>
+                    <td>Julián Andrés</td><td>Hernández Aranguren</td><td>16 años</td><td>Colombia</td><td>Nobsa</td><td>3155550867</td>
+                </tr>
+                
+            </table>
+        </div>
+
+        
+            
+
+            
+              
+            
+
+        </div>
+
+      </div>
+    </body>
+
+           
+    </html>
+    
